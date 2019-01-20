@@ -13,7 +13,8 @@ class Formulario extends Component {
             pais: this.paisRef.current.value
         }
 
-        console.log(respuesta);
+        // console.log(respuesta);
+        this.props.datosConsulta(respuesta);
     }
 
     render() { 
